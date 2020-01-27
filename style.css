@@ -8,9 +8,9 @@ html { font-family: 'Inter', sans-serif; }
     margin-right: auto;
     max-width: 1440px;
 }
-.navbar-brand{
-    color: #8EBED9 !important;
-    font-weight: 500;
+.b-logo{
+    width: 50%;
+    height: auto;
 }
 .navbar{
     padding: 5% 25% 0 25%;
@@ -41,7 +41,8 @@ html { font-family: 'Inter', sans-serif; }
 .projects{
     padding-top: 5%;
     padding-left: 25%;
-    padding-right: 25%
+    padding-right: 25%;
+    padding-bottom: 5%;
 }
 .projects img{
     width: 100%;
@@ -90,12 +91,101 @@ html { font-family: 'Inter', sans-serif; }
 .case-space{
     padding: 1% 0 1% 0;
 }
-.overview{
-    padding-top: 5%;
+.overview, .problem, .goal, .research, .empathize, .poc1, .poc2, .next-steps{
+    padding-top: 10%;
     font-family: "inter";
+    
 }
 .body-text{
     font-size: 18px;
     font-family:"inter";
     padding-top: 1%;
+}
+.case-header{
+    font-weight:600;
+}
+.case-subheader{
+    font-weight: 700;
+    font-family: "inter";
+    font-size: 18px;
+    color: #8EBED9;
+}
+#claims-process{
+    width: 100%;
+    height: auto;
+}
+#triage{
+    width: 100%;
+    height: auto;
+}
+.caption{
+    font-size: 12px;
+    color: #a8a8a8;
+}
+#csr{
+    color: #8EBED9;
+    font-weight: 600;
+}
+.job-title{
+    font-weight: 700;
+    font-family: "inter";
+    font-size: 18px;
+    color: #8EBED9;
+}
+.bullets{
+    font-family: "inter";
+    font-size: 18px;
+}
+.persona{
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+}
+.persona-comparison{
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+.journey-maps{
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#general-process{
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#invision{
+    color: #ff3366;
+    font-weight: 600;
+}
+#me{
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+}
+.about-section{
+    padding-top: 10%;
+}
+.hello-eyes{
+    font-size: 51px;
+    padding-bottom: 5%;
+}
+.about-text{
+    
+}
+#footer-text{
+    text-align: center;
+    padding: 5% 25% 0 25%;
+}
+#footer-name{
+    color: #8EBED9;
+}
+#soon-time{
+    font-style: italic;
+    font-size: 15px;
 }

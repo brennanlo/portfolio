@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/Group 634.png">
     <title>brennan lo</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">brennan lo</a>
+      <a class="navbar-brand" href="about.html"><img class="b-logo" src="./images/b logo.svg"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,7 +27,7 @@
             <a class="nav-link" href="about.html">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">resume</a>
+            <a class="nav-link" href="Resume 2020.pdf" target="_blank">resume</a>
           </li>
         </ul>
       </div>
@@ -41,24 +41,172 @@
             <h1 class="thicc"><span class="thicc-title">CSR Templates</span> — Streamlining insurance claim processes</h1>
         </div>
         <div class="row case-info">
-            <div class="col-6">
+            <div class="col-8">
                 <h5 class="case-space"><span class="case-colour">Company</span> / <span class="lcc">WSIB Innovation Lab</span></h5>
-                <h5 class="case-space"><span class="case-colour">Role</span> / <span class="lcc">1 of 2 Designers</span></h5>
+                <h5 class="case-space"><span class="case-colour">Design</span> / <span class="lcc">Brennan Lo (me) & Christina Ru</span></h5>
                 <h5 class="case-space"><span class="case-colour">Tools</span> / <span class="lcc">Sketch & Invision</span></h5>
                 <h5 class="case-space"><span class="case-colour">Timeline</span> / <span class="lcc">3 Weeks</span></h5>
             </div>
         </div>
+
         <div class="overview">
-            <h2>Overview</h2>
-            <p class="body-text">The Lab has been tasked to help with the redesign of the template process at the Kitchener Call
-                Center. Currently, the templates are difficult to fill out and export, non-intuitive, and confusing to
-                draw information from. The instructions for choosing which template to use and how to use them
-                are excessive, lengthy, and difficult to navigate. 
-                All content and information is being provided by Kristen, the Kitchener office CSR Manager, and
-                the design team is focusing on improving the form flow and interface design.</p>
-
+            <h1 class="case-header">Overview</h1>
+            <p class="body-text">The Kitchener WSIB call center receives hundreds of calls daily. From those hundred 
+              calls, customer service representatives (<span id="csr">CSRs</span>) receive them, and help callers file insurance claims.
+               Currently, the system of processing insurance claim requires the completion of multiple templates,
+                which is complicated, difficult to use, and unintuitive. </p>
+                <div class="row">
+                  <div class="col-12">
+                      <img id="general-process" src="images/general claim flow.png">
+                  </div>    
         </div>
+
+        <div class="problem">
+          <h1 class="case-header">Problem</h1>
+          <p class="body-text">Due to the nature of the current insurance claim process, customer service representatives 
+            and management are frustrated with the template system. In its current state, there are far too many templates
+            to work with and are very difficult to use and choose.</p>
+          <div class="problem-pics">
+            <div class="row">
+              <div class="col-6">
+                  <img id="claims-process" src="images/claim process.jpg">
+              </div>
+              <div class="col-6">
+                  <img id="triage" src="images/NLT triage.jpg">
+              </div>  
+            </div> 
+            <p class="caption">From left: Insurance claim touch points flow chart, No-lost-time triage template.</p>
+          </div>       
+          </div>
+
+          <!-- border the goal or something-->
+
+      <div class="goal">
+        <h1 class="case-header">Goal</h1>
+        <p class="body-text">Streamline the insurance claim process by unifying the templates into a singular 
+          form that acts as a single source of truth. </p>
+      </div>
+      
+    <div class="research">
+      <h1 class="case-header">Research</h1>
+      <p class="body-text">The design team collectively job shadowed and interviewed customer service
+          representatives, eligibility adjudicators, case managers, and return-to-work specialists to gain a
+           better understanding of the problem with the existing solution.</p>
+    </div>
+
+
+    <p class="case-subheader">Customer Service Representatives</p>
+    <ul class="bullets">
+      <li>
+        Those new to the template system were unsure of which templates to use for each claim type
+      </li>
+      <li>
+        Callers are left on long hold times to search for appropriate documents to fill out templates
+      </li>
+      <li>
+        Many redundant questions and scripts appear in the templates
+      </li>
+      <li>
+        Current UI is old and disorganized
+      </li>
+    </ul>
+    <p class="case-subheader">Eligibility Adjudicators</p>
+    <ul class="bullets">
+      <li>
+        Templates are difficult to read, and scraping relevant information from them are difficult
+      </li>
+    </ul>
+    <p class="case-subheader">Case Managers</p>
+    <ul class="bullets">
+      <li>
+        Templates indicate important information poorly
+      </li>
+    </ul>
+
+
+  <div class="empathize">
+    <h1 class="case-header">Empathize</h1>
+    <p class="body-text">From the information that was collected through our shadowing and interviews,
+       we synthesized user personas and user journey maps to aid in creating a solution that met the needs and goals of our customers.</p>
+  </div>
+
+<div class="persona">
+  <p class="case-subheader">USER PERSONAS</p>
+  <p class="body-text">I created 2 personas for an experienced and inexperienced CSR. I also made sure
+     to feature two different layouts for the personas. One was used to easily compare both personas side
+      by side at a glance, and the other provided all the user information in one setting.</p>
+      <div class="problem-pics">
+        <div class="row">
+          <div class="col-12">
+              <img class="persona" src="images/persona 1.png">
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col-12">
+              <img class="persona" src="images/persona 2.png">
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col-12">
+              <img class="persona-comparison" src="images/persona comparison.png">
+          </div> 
+      </div>       
+      </div>
+
+
+
+<div class="journeys">
+  <p class="case-subheader">USER JOURNEYS</p>
+  <p class="body-text">Two types of user journeys were made. One was in the perspective of the caller making a claim, and the other was of a customer service representative. </p>
+</div>
+<div class="row">
+  <div class="col-12">
+      <img class="journey-maps" src="images/Caller v2.png">
+  </div> 
+</div>
+<div class="row">
+  <div class="col-12">
+      <img class="journey-maps" src="images/csr journey.png">
+  </div> 
+</div>
+
+<div class="poc1">
+  <h1 class="case-header">POC 1 — Guided Form Picker</h1>
+  <p class="body-text">The design team decided that a good first step towards simplifying the template system would be to create a guided form picker. This would help introduce newer
+     CSRs to the template system, and help guide them towards picking the correct template. <span id="invision">Invision</span> was used in order to create a prototype that could be easily used for usability testing later on. </p>
+     <div class="row">
+      <div class="col-12">
+          <img class="journey-maps" src="images/Guided Form Picker flow.png">
+      </div> 
+    </div>
+    <p class="body-text">During this POC, our main goals were to create a simple UI that would be easy for CSRs to navigate.</p>
+    <p class="body-text">The idea of this prototype was to have the form auto-populate itself as you move along selecting radio buttons and dropdowns. This allows for decreased clutter and confusion for CSRs.</p>
+    <p class="body-text">Once CSRs reach the workplan activity, they have to run through a list of exceptions to determine the next steps to be taken. Showcasing the exceptions in this format ensures that CSRs review 
+      each exception case before moving forward. This reduces the amount of mistakes that could possibly be made and ensures that claims don't flow down the wrong path because of a missed exception. </p>
+    <div class="row">
+      <div class="col-12">
+          <img class="journey-maps" src="images/poc 1.png">
+      </div> 
+    </div> 
+
+    <!--usability testing section for POC 1-->
+
+</div>
+    <div class="poc2">
+      <h1 class="case-header">POC 2</h1>
+      <p class="body-text">The second POC was used to merge the ESU and triage templates together. This was a step towards the goal of having one singular form as a single souce of truth instead of having multiple templates.</p>
+      <p class="body-text">Since these two templates already had content that was similar within it, it made a good first try at merging templates together. This would eliminate redundancies between using the two tempaltes and create a good starting point to merge the rest of the templates later on.</p>
+
+    </div>    
+
+    <div class="next-steps">
+      <h1 class="case-header">Next Steps</h1>
+      <p class="body-text">User testing has yet to be done on the new ESU/Triage form. Feedback from the corporate CSR manager has also not been given as of yet. As the new design team for the future term takes over this project, they will determine the scope of the next POC.</p>
+    </div> 
     </div>
 
     </div>
+    <footer>
+      <p id="footer-text">Designed and developed by <span id="footer-name">Brennan Lo</span></p>
+  </footer>
     </body>

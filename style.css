@@ -16,6 +16,9 @@ html { font-family: 'Inter', sans-serif; }
     padding: 5% 25% 0 25%;
     font-family: 'inter';
 }
+.navbar-brand:hover{
+    opacity: 50%
+}
 .nav-item .nav-link{
     margin-left: 1.5em;
     margin-right: 1.5em;
@@ -24,11 +27,15 @@ html { font-family: 'Inter', sans-serif; }
 .nav-item :active{
     color: #8EBED9;
 }
+
 .hero{
     padding-left: 25%;
     padding-top: 8%;
     padding-bottom: 2%;
     font-family:"inter";
+}
+.my-name{
+    font-weight: 600;
 }
 .intro{
     padding-left: 25%;
@@ -37,6 +44,16 @@ html { font-family: 'Inter', sans-serif; }
 .blurb{
     font-weight: 350;
     padding-top: 1%;
+}
+#wsibIB{
+    color:#8EBED9;
+    font-weight: 600;
+}
+#wsibproj1{
+    padding-left: 0;
+}
+#wsibproj2{
+    padding-right: 0;
 }
 .projects{
     padding-top: 5%;
@@ -90,8 +107,9 @@ html { font-family: 'Inter', sans-serif; }
 }
 .case-space{
     padding: 1% 0 1% 0;
+    font-size: 18px;
 }
-.overview, .problem, .goal, .research, .empathize, .poc1, .poc2, .next-steps{
+.overview, .problem, .goal, .research, .empathize, .poc1, .poc2, .next-steps, .ideation, .wireframes, .mockups{
     padding-top: 10%;
     font-family: "inter";
     
@@ -140,6 +158,7 @@ html { font-family: 'Inter', sans-serif; }
     width: 100%;
     height: auto;
     padding-top: 2%;
+    padding-bottom: 30px;
 }
 .persona-comparison{
     width: 100%;
@@ -188,4 +207,24 @@ html { font-family: 'Inter', sans-serif; }
 #soon-time{
     font-style: italic;
     font-size: 15px;
+}
+#csrtemp{
+    font-family: "inter";
+    font-weight: 500; 
+}
+#projport{
+    font-family: "inter";
+    font-weight: 500;
+}
+.proj1{
+    padding-bottom: 20px;
+}
+.proj1:hover{
+    opacity: 60%;
+}
+.wireframecard1{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
